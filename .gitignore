@@ -1,0 +1,17 @@
+# Variables de entorno reales (nunca versionar)
+.env
+*.env
+!.env.example
+
+# Logs y temporales
+*.log
+*.tmp
+
+# Editor y sistema
+.vscode/
+.idea/
+.DS_Store
+
+# Claves y certificados
+*.pem
+*.key
